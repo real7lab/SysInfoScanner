@@ -37,13 +37,13 @@ This tool is useful for diagnostics, logging, or gathering system identifiers.
 1. Compile the project using a terminal or Visual Studio:
 
 ```bash
-g++ SysInfoScanner.cpp -o SysInfoScanner -lshlwapi
+g++ WindowsSerialInfo.cpp -o WindowsSerialInfo -lshlwapi
 ````
 
 2. Run the program:
 
 ```bash
-./SysInfoScanner
+./WindowsSerialInfo
 ```
 
 ## Output Example

@@ -87,22 +87,16 @@ void GetUserAndComputerName() {
 }
 
 int main() {
-    std::cout << "=== SYSTEM INFO ===\n\n";
+std::cout << "=== SYSTEM INFO ===\n\n";
 
-    std::cout << "[~] HWID: " << GetHWID() << "\n\n";
-
-	std::cout << "[~] User and Computer Info:\n";
-    GetUserAndComputerName();
-
-    std::cout << "\n[~] CPU: " << GetCPUName() << "\n\n";
-
-	std::cout << "[~] RAM Info:\n";
-    GetRAMInfo();
-
-    std::cout << "\n[~] Drive Info:\n";
-    GetDriveInfo();
-
-	Sleep(50000);
-
+std::cout << "[~] HWID: " << GetHWID() << "\n\n";
+std::cout << "[~] User and Computer Info:\n";
+GetUserAndComputerName();
+std::cout << "\n[~] CPU: " << GetCPUName() << "\n\n";
+std::cout << "[~] RAM Info:\n";
+GetRAMInfo();
+std::cout << "\n[~] Drive Info:\n";
+GetDriveInfo();
+Sleep(50000);
     return 0;
 }

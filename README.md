@@ -15,7 +15,7 @@ This tool is useful for diagnostics, logging, or gathering system identifiers.
 ### Developed by
 
 * **real7lab**
-* [Discord Server](https://discord.gg/visionn)
+* [Discord Server](https://discord.gg/FzCpzcRnrz)
 
 ## Features
 
